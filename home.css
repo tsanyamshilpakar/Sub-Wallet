@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import url('https://fonts.googleapis.com/css?family=Silkscreen:400');
+@import url('https://fonts.googleapis.com/css?family=Abyssinica:400');
+
+.home {
+    color: #FA8072;
+}
+
+header{
+    /* background-color: #24252A; */
+    background-color: #24252A;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(44, 35, 35); */
+    /* background-color: #292D7B; */
+    background: linear-gradient(90deg,  #292D7B 50%, #1F2260 50%);
+}
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+    background: #24252A;
+}
+
+.nav__links{
+    list-style: none;
+    background: #24252A;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+    background: #24252A;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+    background: #24252A;
+}
+
+.nav__links li a:hover {
+    color:  #FA8072;
+    /* color: #38B8E9; */
+    
+    padding: 9px 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    background-color: #FA8072;
+    /* background-color: #38B8E9; */
+    color: white;
+}
+
+button{
+    padding: 9px 25px;
+    background-color: #FA8072;
+    /* background-color: #38B8E9; */
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color:  white;
+    color:  #FA8072;
+    padding: 12px 30px;
+    /* color: #38B8E9; */
+}
+
+.nav_text{
+    background: #24252A;
+    color: #FA8072;
+    font-family: "Silkscreen", sans-serif;
+}
+
+.all-home-text{
+    width: 50%;
+}
+
+.welcome-text{
+    font-family: "Silkscreen", sans-serif;
+    color: #FA8072;
+    font-size: 100px;
+    margin-top: 40px;
+    margin-left: 70px;
+    margin-bottom: 1px;
+}
+
+.to-sub-wallet{
+    font-family: "Silkscreen", sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-left: 147px;
+    margin-top: 0%;
+}
+
+.home-image{
+    border-left: 20px;
+    margin-top: 50px;
+    /* margin-left: 0%; */
+}
+
+.home-content-text{
+    color: white;
+    font-family: "Abyssinica", sans-serif;
+    font-size: 20px;
+    margin-left: 170px;
+    margin-right: 23%;
+    margin-top: 10%;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 80px;
+}
+
+.cta-home{
+    margin-left: 40%;
+    margin-top: 50px;
+}
+
+.cta-contact{
+    margin-left: 20%;
+}
+/* .cta-logout{
+    margin-left: 30%;
+} */
